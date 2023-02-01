@@ -1,0 +1,166 @@
+body {
+      /* body */
+
+position: relative;
+width: 100%;
+height: 607px;
+
+background: #16949C;
+}
+
+.register {
+    /* register */
+  
+  position: absolute;
+  left: 30.22%;
+  right: 26.02%;
+  top: 7.64%;
+  bottom: 44.59%;
+  
+  background: #206165;
+  border-radius: 14.594px;
+  width: 35%;
+  height: 60%;
+  }
+  
+  .title_page {
+    /* Title page */
+  
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  background: rgba(23, 188, 199, 0.78);
+  border-radius: 14.594px 14.594px 0px 0px;
+  }
+  
+  .title_page h2 {
+    /* S’INSCRIRE */
+  
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: 14px;
+  
+  color: #FFFFFF;
+  }
+  
+  .info {
+    position: absolute;
+    height: 50%;
+    left: 120px;
+    top: 58.43px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .info input {
+    height: 18%;
+    border: none;
+  }
+  
+  .info input:focus {
+    outline: none;
+  }
+  
+  .info button {
+  height: 18%;
+  color: #FFFFFF;
+  background: rgba(23, 188, 199, 0.78);
+  border-radius: 14.594px;
+  cursor: pointer;
+  border: none;
+  }
+  
+  .sign {
+    top: 255px;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 100%;
+    font-size: small;
+    color: #FFFFFF;
+  }
+  
+  .p1,.p2 {
+    top: 240px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    position: absolute;
+    width: 100%;
+    font-size: small;
+    color: #FFFFFF;
+  }
+
+  .sign1 {
+    position: absolute;
+    top: 285px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .sign_text {
+    width: 100%;
+  }
+
+  .sign_text span {
+    font-size: small;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+  }
+
+  .sign_text1 {
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    width: 100%;
+  }
+
+  .sign_text1 span {
+    font-size: small;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+  }
+
+  .sign_logo {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .img1 {
+    height: 100%;
+    width: 25%;
+  }
+  
+  .img11 {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .img22 {
+    height: 80%;
+    width: 90%;
+  }
+  
+  .img33 {
+    height: 80%;
+    width: 90%;
+  }
+  

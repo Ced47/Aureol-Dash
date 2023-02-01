@@ -1,0 +1,122 @@
+.App {
+
+  /* body */
+
+position: relative;
+width: 100%;
+height: 607px;
+
+background: #16949C;
+}
+
+.register {
+  /* register */
+
+position: absolute;
+left: 30.22%;
+right: 26.02%;
+top: 7.64%;
+bottom: 44.59%;
+
+background: #206165;
+border-radius: 14.594px;
+width: 35%;
+height: 60%;
+}
+
+.title_page {
+  /* Title page */
+
+position: absolute;
+width: 100%;
+height: 40px;
+background: rgba(23, 188, 199, 0.78);
+border-radius: 14.594px 14.594px 0px 0px;
+}
+
+.title_page h2 {
+  /* S’INSCRIRE */
+
+position: absolute;
+width: 100%;
+text-align: center;
+font-family: 'Inter';
+font-style: normal;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+
+.informations {
+  position: absolute;
+  height: 60%;
+  top: 58.43px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.informations input {
+  height: 14%;
+  border: none;
+}
+
+.informations input:focus {
+  outline: none;
+}
+
+.informations button {
+height: 18%;
+color: #FFFFFF;
+background: rgba(23, 188, 199, 0.78);
+border-radius: 14.594px;
+cursor: pointer;
+border: none;
+}
+
+.sign_in {
+  top: 265px;
+}
+
+.sign_in span {
+  top: 265px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  position: absolute;
+  width: 100%;
+  font-size: small;
+  color: #FFFFFF;
+}
+
+.logo_sign {
+  position: absolute;
+  top:300px;
+  left: 100px;
+  width: 50%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img1 {
+  height: 100%;
+  width: 25%;
+}
+
+.img11 {
+  height: 100%;
+  width: 100%;
+}
+
+.img22 {
+  height: 80%;
+  width: 90%;
+}
+
+.img33 {
+  height: 80%;
+  width: 90%;
+}

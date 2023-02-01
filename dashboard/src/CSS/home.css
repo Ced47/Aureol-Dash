@@ -1,0 +1,199 @@
+body {
+    position: absolute;
+}
+
+.dash {
+    position: absolute;
+    width: 18%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #26273B;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    padding-left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 98px;
+}
+
+.title_div {
+    padding: 15px 25px 15px 0px;
+    gap: 20px;
+    text-align: center;
+    width: 88.5%;
+    height: 10%;
+    background: linear-gradient(90deg, #41A3FA 0%, rgba(255, 255, 255, 0.49) 50.71%, #41A3FA 100%);
+    border-radius: 5px;
+}
+
+.title_div h3 {
+    margin: 0px;
+    height: 100%;
+    color: white;
+    margin-left: 20px;
+}
+
+.ba {
+    margin-left: 13px;
+    padding: 0px;
+    gap: 10px;
+    width: 87%;
+    height: 25%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.49) 0%, #45749d 50.71%, rgba(255, 255, 255, 0.49) 100%);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.ba h4 {
+    margin-top: 15px;
+    color:white;
+}
+
+.board {
+    position: absolute;
+    left: 18%;
+    width: 82%;
+    height: 100%;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background:#26273bc8;
+}
+
+/* widget clock */
+.horloge {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background: linear-gradient(90deg, #41A3FA 0%, rgba(255, 255, 255, 0.49) 50.71%, #41A3FA 100%);
+    width: 20%;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: 4px solid rgb(226, 245, 244);
+}
+
+.ecran {
+    width: 90%;
+    height: 10%;
+    margin-left: 3%;
+    border-radius: 15px;
+    color: white;
+}
+
+/* widget calculator */
+.calculator {
+    height: 73%;
+    width: 30%;
+    border: none;
+}
+
+.cal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 7.5%;
+    box-shadow: 1px 2px 2px 2px #6c8fae;
+    width: 70%;
+    height: 50%;
+    background-color: white;
+}
+
+.cal input {
+    height: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    box-shadow: 1px 2px 2px 2px #6c8fae;
+    color:#6c8fae;
+    text-align: center;
+}
+
+.cal input:focus {
+    outline: none;
+    color:#6c8fae;
+    text-align: center;
+}
+
+.cal input::placeholder {
+    color: #6c8fae;
+    text-align: center;
+}
+
+.cal .row {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cal .row button {
+    height: 100%;
+    width: 20%;
+    border: none;
+    box-shadow: 1px 2px 2px 2px #6c8fae;
+}
+
+.cal .row button:focus {
+    outline: none;
+}
+
+.weather {
+    height: 40%;
+    width: 30%;
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/weather.jpg");
+    background-size: 100%;
+}
+
+.weat {
+    margin-top: 2%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.weat input, .weat button {
+    height: 100%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #6c8fae;
+    color:#6c8fae;
+    text-align: center;
+}
+
+.weat input {
+    width: 80%;
+}
+
+.field {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.field1 {
+    height: 100%;
+}
